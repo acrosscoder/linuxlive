@@ -50,6 +50,10 @@ dump all bssid
 (airdump "adaptername in monitor mode or ex:wlan0mon")  or "mac address"  // (airdump wlan0mon) or add  -->   20:2c:29:00:11
 (airdump "adaptername in monitor mode or ex:wlan0mon" --bssid "mac address" --channel "channel# example: 18") // airdump wlan0mon --bssid 20:2c:29:00:11 --channel 18
 //performing deauth first, look for most active device on the chosen wifi network
+
+
+airodump-ng  -c2 -w capture -d DE:3G:3H:3J:3H wlan0mon
+
 >>denial of service
 
 open new terminal
